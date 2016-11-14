@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		DAC000511DDA46A8004086AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC000501DDA46A8004086AF /* AppDelegate.swift */; };
-		DAC000531DDA46A8004086AF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC000521DDA46A8004086AF /* FirstViewController.swift */; };
-		DAC000551DDA46A8004086AF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC000541DDA46A8004086AF /* SecondViewController.swift */; };
+		DAC000531DDA46A8004086AF /* EhVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC000521DDA46A8004086AF /* EhVC.swift */; };
+		DAC000551DDA46A8004086AF /* BeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC000541DDA46A8004086AF /* BeeVC.swift */; };
 		DAC000581DDA46A8004086AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC000561DDA46A8004086AF /* Main.storyboard */; };
 		DAC0005A1DDA46A8004086AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC000591DDA46A8004086AF /* Assets.xcassets */; };
 		DAC0005D1DDA46A8004086AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC0005B1DDA46A8004086AF /* LaunchScreen.storyboard */; };
+		DAC000651DDA4866004086AF /* SeaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC000641DDA4866004086AF /* SeaVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DAC0004D1DDA46A8004086AF /* Git-ICE-AGD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git-ICE-AGD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC000501DDA46A8004086AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DAC000521DDA46A8004086AF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DAC000541DDA46A8004086AF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DAC000521DDA46A8004086AF /* EhVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhVC.swift; sourceTree = "<group>"; };
+		DAC000541DDA46A8004086AF /* BeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeVC.swift; sourceTree = "<group>"; };
 		DAC000571DDA46A8004086AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAC000591DDA46A8004086AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAC0005C1DDA46A8004086AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAC0005E1DDA46A8004086AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC000641DDA4866004086AF /* SeaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeaVC.swift; path = ../SeaVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				DAC000501DDA46A8004086AF /* AppDelegate.swift */,
-				DAC000521DDA46A8004086AF /* FirstViewController.swift */,
-				DAC000541DDA46A8004086AF /* SecondViewController.swift */,
+				DAC000521DDA46A8004086AF /* EhVC.swift */,
+				DAC000541DDA46A8004086AF /* BeeVC.swift */,
+				DAC000641DDA4866004086AF /* SeaVC.swift */,
 				DAC000561DDA46A8004086AF /* Main.storyboard */,
 				DAC000591DDA46A8004086AF /* Assets.xcassets */,
 				DAC0005B1DDA46A8004086AF /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAC000551DDA46A8004086AF /* SecondViewController.swift in Sources */,
+				DAC000551DDA46A8004086AF /* BeeVC.swift in Sources */,
+				DAC000651DDA4866004086AF /* SeaVC.swift in Sources */,
 				DAC000511DDA46A8004086AF /* AppDelegate.swift in Sources */,
-				DAC000531DDA46A8004086AF /* FirstViewController.swift in Sources */,
+				DAC000531DDA46A8004086AF /* EhVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
