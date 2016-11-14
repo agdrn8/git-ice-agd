@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A5AE531DDA4C2C00764C7D /* ExpendableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5AE521DDA4C2C00764C7D /* ExpendableViewController.swift */; };
 		DAC000511DDA46A8004086AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC000501DDA46A8004086AF /* AppDelegate.swift */; };
 		DAC000531DDA46A8004086AF /* EhVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC000521DDA46A8004086AF /* EhVC.swift */; };
 		DAC000551DDA46A8004086AF /* BeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC000541DDA46A8004086AF /* BeeVC.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12A5AE521DDA4C2C00764C7D /* ExpendableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpendableViewController.swift; sourceTree = "<group>"; };
 		DAC0004D1DDA46A8004086AF /* Git-ICE-AGD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git-ICE-AGD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC000501DDA46A8004086AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAC000521DDA46A8004086AF /* EhVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhVC.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		DAC0004F1DDA46A8004086AF /* Git-ICE-AGD */ = {
 			isa = PBXGroup;
 			children = (
+				12A5AE521DDA4C2C00764C7D /* ExpendableViewController.swift */,
 				DAC000501DDA46A8004086AF /* AppDelegate.swift */,
 				DAC000521DDA46A8004086AF /* EhVC.swift */,
 				DAC000541DDA46A8004086AF /* BeeVC.swift */,
@@ -144,6 +147,7 @@
 				DAC000551DDA46A8004086AF /* BeeVC.swift in Sources */,
 				DAC000651DDA4866004086AF /* SeaVC.swift in Sources */,
 				DAC000511DDA46A8004086AF /* AppDelegate.swift in Sources */,
+				12A5AE531DDA4C2C00764C7D /* ExpendableViewController.swift in Sources */,
 				DAC000531DDA46A8004086AF /* EhVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +298,7 @@
 				DAC000631DDA46A8004086AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
