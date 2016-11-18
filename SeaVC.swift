@@ -21,6 +21,9 @@ class SeaVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func ClickMe(sender: AnyObject) {
+        print("was clicked real good")
+    }
 
     /*
     // MARK: - Navigation
