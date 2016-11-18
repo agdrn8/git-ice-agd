@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12A5AE531DDA4C2C00764C7D /* ExpendableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5AE521DDA4C2C00764C7D /* ExpendableViewController.swift */; };
+		DAA254341DDF8BF4003C22A6 /* canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA254331DDF8BF4003C22A6 /* canvas.swift */; };
 		DAC000511DDA46A8004086AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC000501DDA46A8004086AF /* AppDelegate.swift */; };
 		DAC000531DDA46A8004086AF /* EhVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC000521DDA46A8004086AF /* EhVC.swift */; };
 		DAC000551DDA46A8004086AF /* BeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC000541DDA46A8004086AF /* BeeVC.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		12A5AE521DDA4C2C00764C7D /* ExpendableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpendableViewController.swift; sourceTree = "<group>"; };
+		DAA254331DDF8BF4003C22A6 /* canvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = canvas.swift; sourceTree = "<group>"; };
 		DAC0004D1DDA46A8004086AF /* Git-ICE-AGD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git-ICE-AGD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC000501DDA46A8004086AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAC000521DDA46A8004086AF /* EhVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhVC.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				DAC000541DDA46A8004086AF /* BeeVC.swift */,
 				DAC000641DDA4866004086AF /* SeaVC.swift */,
 				DAC000561DDA46A8004086AF /* Main.storyboard */,
+				DAA254331DDF8BF4003C22A6 /* canvas.swift */,
 				DAC000591DDA46A8004086AF /* Assets.xcassets */,
 				DAC0005B1DDA46A8004086AF /* LaunchScreen.storyboard */,
 				DAC0005E1DDA46A8004086AF /* Info.plist */,
@@ -147,6 +150,7 @@
 				DAC000551DDA46A8004086AF /* BeeVC.swift in Sources */,
 				DAC000651DDA4866004086AF /* SeaVC.swift in Sources */,
 				DAC000511DDA46A8004086AF /* AppDelegate.swift in Sources */,
+				DAA254341DDF8BF4003C22A6 /* canvas.swift in Sources */,
 				12A5AE531DDA4C2C00764C7D /* ExpendableViewController.swift in Sources */,
 				DAC000531DDA46A8004086AF /* EhVC.swift in Sources */,
 			);
